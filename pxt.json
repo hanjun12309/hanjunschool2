@@ -1,5 +1,5 @@
 {
-    "name": "송신",
+    "name": "고백받기",
     "description": "",
     "dependencies": {
         "core": "*",
