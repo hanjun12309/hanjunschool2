@@ -1,4 +1,11 @@
 radio.onReceivedNumber(function (receivedNumber) {
+    basic.showLeds(`
+        . . # . .
+        . . # . .
+        . . # . .
+        . . . . .
+        . . # . .
+        `)
     if (receivedNumber == 2 && input.buttonIsPressed(Button.A)) {
         basic.showLeds(`
             . # # # .
